@@ -12,6 +12,8 @@ if (userAge < 18) {
     tripPrice *= 0.8
 } else if (userAge > 65){
     tripPrice *= 0.6
+}else{
+    tripPrice
 }
 
 tripPrice = tripPrice.toFixed(2);
