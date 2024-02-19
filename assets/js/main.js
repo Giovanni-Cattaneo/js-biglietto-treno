@@ -14,4 +14,6 @@ if (userAge < 18) {
     tripPrice *= 0.6
 }
 
+tripPrice = tripPrice.toFixed(2);
+
 console.log(tripPrice);
