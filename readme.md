@@ -19,10 +19,15 @@ zero grafica solo js.
 - SE il cliente dovesse avere meno di 18 anni applicare il 20% di sconto
 - SE il cliente dovesse avere più di 65 anni applicare 40% di sconto
 - Esprimere il prezzo con un arrotondamento a due cifre decimali
+- Stampare il prezzo
 
 
 ## Tools
 - Prompt
 - let / Const
+- log
 - if / else
 - Number
+- toFixed()<!-- da usare per limitare il numero di cifre decimali -->
+- multiplication assignment (*=) operator, x *= y is equivalent to x = x * y <!-- da usare per moltiplicare il prezzo del viaggio per la percentuale  -->
+
