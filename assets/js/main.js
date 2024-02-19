@@ -18,4 +18,6 @@ if (userAge < 18) {
 
 tripPrice = tripPrice.toFixed(2);
 
+alert (tripPrice);
+
 console.log(tripPrice);
