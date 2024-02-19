@@ -5,10 +5,13 @@ let userDistance = prompt("Scrivi qui i kilometri da percorere")
 
 console.log (Number(userAge), Number (userDistance));
 
-console.log(userDistance * 0.21);
+
+let tripPrice = userDistance * 0.21;
 
 if (userAge < 18) {
-    console.log((userDistance * 0.21) / (100) * (80));
+    tripPrice *= 0.8
 } else if (userAge > 65){
-    console.log((userDistance * 0.21) / (100) * (60));
+    tripPrice *= 0.6
 }
+
+console.log(tripPrice);
