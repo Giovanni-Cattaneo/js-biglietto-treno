@@ -25,3 +25,4 @@ zero grafica solo js.
 - Prompt
 - let / Const
 - if / else
+- Number
